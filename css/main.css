@@ -44,3 +44,56 @@ h1
 {
 	background-color: #91A33B !important;
 }
+
+.entry
+{
+	text-align: justify;
+	font-size: 16px;
+	padding: 30px;
+	margin-bottom: 40px;
+}
+
+.list-group-item-dark
+{
+	background-color: #373a3d;
+	color: white;
+}
+
+.list-group-item-dark:hover
+{
+	background-color: #91A33B !important;
+}
+
+.list-group .active
+{
+	background-color: #91A33B !important;
+	cursor: default;
+}
+
+.blockquote
+{
+	line-height: 120%;
+}
+
+@media ( max-width: 575px )
+{
+	.entry {
+		margin: 40px 20px;
+		text-align: left;
+		font-size: 15px;
+	}
+
+	.list-group
+	{
+		text-align: center;
+	}
+
+	.float-left, .float-right {
+		max-width: 50%;
+	}
+
+	.blockquote
+	{
+		font-size: 17px;
+	}
+}
